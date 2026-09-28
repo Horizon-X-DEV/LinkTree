@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  /* ---------- 1. Tahun footer (fallback 2026) ---------- */
+  /* ---------- 1. Tahun footer ---------- */
   var yearEl = document.getElementById('year');
   if (yearEl) {
     var now = new Date();
@@ -12,7 +12,7 @@
     yearEl.textContent = String(year);
   }
 
-  /* ---------- 2. Fallback avatar bila avatar.webp gagal dimuat ---------- */
+  /* ---------- 2. Fallback avatar bila gambar gagal dimuat ---------- */
   var avatar = document.querySelector('.avatar');
   if (avatar) {
     var markFailed = function () {
