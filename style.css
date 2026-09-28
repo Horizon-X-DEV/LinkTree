@@ -1,5 +1,5 @@
 /* ==========================================================================
-   HORIZON X — LINK TREE  (style.css)
+   HORIZON X — LINK TREE  (gaya.css)
    ========================================================================== */
 
 *,
@@ -223,7 +223,7 @@ body::after {
     box-shadow 0.3s ease;
 }
 
-/* Fallback bila avatar.webp gagal dimuat (dipakai oleh script.js) */
+/* Fallback bila gambar gagal dimuat (dipakai oleh script.js) */
 .avatar-wrapper.avatar-failed .avatar {
   display: none;
 }
@@ -695,4 +695,4 @@ footer {
   .status-dot {
     animation: none !important;
   }
-  }
+}
