@@ -1,5 +1,5 @@
 /* ==========================================================================
-   HORIZON X — LINK TREE  (gaya.css)
+   HORIZON X — LINK TREE  (style.css)
    ========================================================================== */
 
 *,
@@ -357,12 +357,13 @@ h1 {
   animation: card-in 500ms ease both;
 }
 
-/* Stagger 70ms */
+/* Stagger 70ms (6 tombol) */
 .links li:nth-child(1) { animation-delay: 120ms; }
 .links li:nth-child(2) { animation-delay: 190ms; }
 .links li:nth-child(3) { animation-delay: 260ms; }
 .links li:nth-child(4) { animation-delay: 330ms; }
 .links li:nth-child(5) { animation-delay: 400ms; }
+.links li:nth-child(6) { animation-delay: 470ms; }
 
 .link {
   position: relative;
@@ -415,7 +416,7 @@ h1 {
   pointer-events: none;
 }
 
-/* Efek kilau — memakai transform translateX (bukan left) */
+/* Efek kilau — memakai transform translateX */
 .link::after {
   content: "";
   position: absolute;
@@ -695,4 +696,4 @@ footer {
   .status-dot {
     animation: none !important;
   }
-}
+     }
